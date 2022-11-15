@@ -1,0 +1,311 @@
+## ======================================================================================
+## wanchen v3.5.2
+## Preview: https://xpoet.cn
+## Document: https://keep-docs.xpoet.cn
+## Repository: https://github.com/XPoet/hexo-theme-keep
+## ======================================================================================
+
+# ---------------------------------------------------------------------------------------
+#  Your basic info【你的基本信息】
+# ---------------------------------------------------------------------------------------
+base_info:
+  # Your blog website title
+  # 用于设置博客站点的标题，将显示在网站的头部
+  title: 万宸国际 
+
+  # Your blog website author name
+  # 用于设置博客站点的作者昵称，显示在网站底部、文章内容页和版权信息
+  author: Shenzhen wanchen logistics co.,ltd
+
+# ---------------------------------------------------------------------------------------
+# Theme style settings【主题样式设置】
+# ---------------------------------------------------------------------------------------
+style:
+  # Theme primary color
+  primary_color: "#0066cc"
+
+  # Your blog website logo image
+  # You can use local image, image external link or don’t fill
+  # 用于设置博客站点头部 LOGO
+  logo: /images/logo.svg
+
+  # Favicon (You can use local image or image external link)
+  # 用于设置博客站点 favicon 图标
+  favicon: /images/logo.svg
+
+  # Avatar (You can use local image or image external link)
+  #用于设置博客站点作者头像，将显示在文章内容页
+  avatar: /images/avatar.svg
+
+  # Font size, customize font size. (you don't usually have to fill)
+  # e.g. font_size: 18px
+  # 设置博客站点的初始字体大小，单位必须为 px 。该配置项可以不填，如果不填将使用 Keep 主题内置的初始字体大小 15.2px 。
+  font_size: 15.2px
+
+  # Font family, customize font family. (you don't usually have to fill)
+  # e.g. font_family: STKaiti（楷体）, STSong(宋体), STHeiti(黑体)
+  # 设置博客站点的字体样式，该配置项可以不填，如果不填将使用 Keep 主题内置的字体样式。
+  font_family: STHeiti
+
+  # Mouse hover style settings
+  # 用于设置鼠标悬浮时的样式（例如悬浮在主页文章模块、TOC 目录模块、按钮等），可分别开启 shadow 和 scale 效果。
+  hover:
+    # Shadow effect when the mouse hover.
+    # 设置阴影加重效果，可选值：true 或 false。
+    shadow: false  # Option values: true | false
+    # Scale effect when the mouse hovers.
+    # 设置缩放效果，可选值：true 或 false。
+    scale: false   # Option values: true | false
+
+  # First screen style settings
+  # 是 Keep 主题 v3.0.0 新增的首屏模块，开启后将显示在博客站点首页的第一视野（故称首屏）。
+  first_screen:
+    enable: false  # Option values: true | false
+
+    # Set transparent background for header.
+    # 用于在首屏模块开启状态下设置头部是否透明，可选值：true 或 false。
+    header_transparent: false  # Option values: true | false
+
+    # First screen background image (You can use local image or image external link)
+    # 设置首屏背景图片，可使用 本地图片 或 图片外链 URL。
+    background_img: /images/bg.svg
+
+    # First screen description
+    # You can use the "||" to begin a newline, maximum is two lines.
+    # 设置首屏描述，支持设置两行，换行符 ||。
+    description: Shenzhen wanchen logistics co.,ltd
+
+    # If you want to customize the first screen font color, you can fill in here (e.g. "#0066CC")
+    # Otherwise use the theme default font color
+    # 设置首屏描述的字体颜色，可以为空，不填则使用 Keep 主题内置颜色。
+    font_color:
+
+    # If enable hitokoto, first screen description is different every time when you enter the site
+    # 是 Keep 主题 v3.4.6新增的首屏描述一言功能，可选值：true 或 false。
+    # 开启之后，在每次进入博客站点或刷新页面都会呈现出不一样的首屏描述。
+    hitokoto: false  # Option values: true | false
+
+  # Page scroll style settings
+  # 设置页面滚动时的样式。
+  scroll:
+    # 页面滚动时在网站顶部显示滚动进度条，可选值：true 或 false。
+    # Show progress bar in top when page scroll
+    progress_bar: false # Option values: true | false
+
+    # Show percent when page scroll
+    # 页面滚动时在右下角工具栏显示滚动百分比，可选值：true 或 false。
+    percent: false      # Option values: true | false
+
+# ---------------------------------------------------------------------------------------
+# Navigation menu
+# ---------------------------------------------------------------------------------------
+# If you want to enable Categories and Tags, you need to create categories and tags pages
+# e.g. `hexo new page categories` or `hexo new page tags`
+menu:
+  Home: /
+  Business: /business
+  News: /archives
+  About: /about
+  contact_us: /contact
+  # Tags: /tags
+  # Categories: /categories
+  # Links: /links
+  # About: /about
+  # Changelog: /changelog
+  # ......
+
+# ---------------------------------------------------------------------------------------
+# Social contact link
+# 在首屏里面配置第三方社交链接。
+# ---------------------------------------------------------------------------------------
+social_contact:
+  # 设置是否开启显示第三方社交链接，可选值：true 或 false。
+  enable: false      # Option values: true | false
+  links:
+    # Fill in your social platform links here, e.g. [ github: https://github.com/XPoet ]
+    # If you want to click open the picture, you need to add a prefix "img |",
+    # at the same time change your link to the image link.
+    # e.g. [ weixin: img | https://x.com/images/wechat.png ] or [ weixin: img | ./images/wechat.png ]
+    github:          # GitHub
+    weixin:          # WeChat
+    qq:              # QQ
+    weibo:           # WeiBo
+    zhihu:           # ZhiHu
+    twitter:         # Twitter
+    facebook:        # Facebook
+    email:           # Email
+
+# ---------------------------------------------------------------------------------------
+# Home page article block display settings
+# 该配置项用于设置首页文章块底部的标签和分类信息显示。
+# ---------------------------------------------------------------------------------------
+home_article:
+  # Show category in home page article block.
+  # 是否开启显示文章分类，可选值：true 或 false。
+  category:
+    enable: false  # Option values: true | false
+    limit: 3       # Max number of categories shown in home page article block
+  # Show tags in home page article block.
+  # 是否开启显示文章标签，可选值：true 或 false。
+  tag:
+    enable: false  # Option values: true | false
+    limit: 5       # Max number of tags shown in home page article block
+
+# ---------------------------------------------------------------------------------------
+# Post page Settings
+# ---------------------------------------------------------------------------------------
+post:
+  # Author label in the post
+  author_label:
+    enable: true  # Option values: true | false
+
+    # If true, show Lv1, Lv2, Lv3...
+    # If false, show custom_label_list
+    auto: true    # Option values: true | false
+
+    # Label array item can be fill one or more
+    custom_label_list: ["Trainee", "Engineer", "Architect"]
+
+  # Post word count
+  # Dependencies: hexo-wordcount (`npm install hexo-wordcount`)
+  # See: https://github.com/willin/hexo-wordcount
+  word_count:
+    enable: false       # Option values: true | false
+    wordcount: false    # Word count, one article. Option values: true | false
+    min2read: false     # Time to read, one article. Option values: true | false
+
+  # Image align position in the post
+  # 设置文章内容页的图片排列位置，默认 left，可选：left（靠左）、center（居中）。
+  img_align: left  # Option values: left | center
+
+  # Post copyright info
+  # 用于开启文章内容页的文章版权信息，可选值：true 或 false。
+  copyright_info: false  # Option values: true | false
+
+# ---------------------------------------------------------------------------------------
+# Code block
+# ---------------------------------------------------------------------------------------
+code_block:
+  # Toolbar include: "code copy", "code block collapse" and "code language"
+  tools:
+    enable: true            # Option values: true | false
+    style: default           # Option values: default | mac
+  highlight_theme: default   # Option values: default | obsidian
+
+# ---------------------------------------------------------------------------------------
+# Table of Contents in the Sidebar
+# ---------------------------------------------------------------------------------------
+toc:
+  enable: false      # Option values: true | false
+
+  # Automatically add list number to toc.
+  number: false      # Option values: true | false
+
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: false  # Option values: true | false
+
+  # If true, open TOC every time when you enter the article page
+  init_open: false   # Option values: true | false
+
+# ---------------------------------------------------------------------------------------
+# Website count
+# 用于设置网站计数，Keep 主题内置不蒜子计数，无需额外配置，直接选择你要开启的计数项即可。
+# ---------------------------------------------------------------------------------------
+website_count:
+  # busuanzi
+  # See: http://ibruce.info/2015/04/04/busuanzi/
+  busuanzi_count:
+    enable: false     # Option values: true | false【是否开启不蒜子计数，可选值：true 或 false。】
+    site_uv: false    # Option values: true | false【网站访问人数（显示在底部）】
+    site_pv: false    # Option values: true | false【网站总访问量（显示在底部）】
+    page_pv: false    # Option values: true | false【文章阅读次数（显示在文章内容页）】
+
+# ---------------------------------------------------------------------------------------
+# Local Search
+# Dependencies: hexo-generator-searchdb (`npm install hexo-generator-searchdb`)
+# See: https://github.com/theme-next/hexo-generator-searchdb
+# 用于设置站内搜索功能，非常实用，建议开启。开启后，头部导航栏右侧将出现搜索按钮。
+# 通过输入关键字，可完成对博客站点内所有文章进行搜索匹配。
+# ---------------------------------------------------------------------------------------
+local_search:
+  enable: false   # Option values: true | false
+  # 设置是否在点击搜索按钮进行前预加载搜索数据。
+  preload: false  # Preload the search data when the page loads. Option values: true | false
+
+# ---------------------------------------------------------------------------------------
+# Comment plugin
+# ---------------------------------------------------------------------------------------
+comment:
+  enable: false   # Option values: true | false
+  use: valine     # Option values: valine | gitalk | twikoo | waline
+
+  # Valine
+  # See: https://github.com/xCss/Valine
+  #      https://valine.js.org
+  valine:
+    appid:           # Your leancloud application appid
+    appkey:          # Your leancloud application appkey
+    placeholder:     # Input box placeholder
+
+  # Gitalk
+  # See: https://github.com/gitalk/gitalk
+  #      https://gitalk.github.io
+  gitalk:
+    github_id:        # GitHub repo owner
+    github_admins:    # GitHub Admins (in Array type), optional.
+    repository:       # Repository name to store issues
+    client_id:        # GitHub Application Client ID
+    client_secret:    # GitHub Application Client Secret
+
+  # Twikoo
+  # See: https://github.com/imaegoo/twikoo
+  #      https://twikoo.js.org
+  twikoo:
+    env_id:         # Tencent Cloud environment id
+    region:         # Environment region. If select Guangzhou, fill in "ap-guangzhou".
+    version: 1.6.7  # Twikoo version, default use v1.6.7
+
+  # Waline
+  # See: https://github.com/walinejs/waline
+  #      https://waline.js.org/guide/get-started.html
+  waline:
+    server_url:     # Server URL
+    reaction: false # Article reactions, Option values: true | false
+    version: 2      # Waline version, default use v2
+
+# ---------------------------------------------------------------------------------------
+# RSS
+# Dependencies: hexo-generator-feed
+# See: https://github.com/hexojs/hexo-generator-feed
+# ---------------------------------------------------------------------------------------
+rss:
+  enable: false  # Option values: true | false
+
+# ---------------------------------------------------------------------------------------
+# Lazyload image
+# ---------------------------------------------------------------------------------------
+lazyload:
+  enable: true  # Option values: true | false
+
+# ---------------------------------------------------------------------------------------
+# CDN
+# ---------------------------------------------------------------------------------------
+cdn:
+  enable: false       # Option values: true | false
+  provider: jsdelivr  # Option values: jsdelivr | unpkg
+
+# ---------------------------------------------------------------------------------------
+# PJAX
+# ---------------------------------------------------------------------------------------
+pjax:
+  enable: false  # Option values: true | false
+
+# ---------------------------------------------------------------------------------------
+# Footer settings
+# ---------------------------------------------------------------------------------------
+footer:
+  since: 2022  # the starting year of your website. Can be null
+  # 设置网站 ICP 备案编号，可以为空。
+  icp: 京ICP证080268号 京ICP备10005211号        # ICP record number of your website. Can be null
+  # 如果你的博客站点部署在又拍云服务器，可以填写你的又拍云链接，将显示出来。
+  upyun:       # If your site is deployed on upyun, your can fill the upyun url. Can be null
