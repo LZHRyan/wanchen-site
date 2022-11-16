@@ -13,7 +13,7 @@ keywords:
 #作者，用于主题显示文章的作者
 author: Wanchen
 #网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置
-language: [zh-CN,en,zh-TW]
+language: [zh-CN,en]
 language_switcher: true
 cache:
   enable: false
@@ -131,4 +131,7 @@ theme: keep #landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/LZHRyan/wanchen-site.git
+  branch: website
+  meaages: 测试部署

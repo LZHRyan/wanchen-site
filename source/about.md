@@ -19,6 +19,60 @@ date: 2022-11-08 23:17:08
 成为全球化供应链企业。
 成为中国新时代货运代理行业服务质量的标杆。
 
-## 团队建设
+## 我们的团队
+
+<div style="display:block;text-align: center;width:auto; max-width: 40%;margin:0 auto;">
+            <div style="float:left; width: 255px;height: 440px; margin: 10px; background-color: #EFEFEF; border-radius: 5px;border:1px solid #CCCCCC">
+                <div style="width: 100%; height: 320px">
+                    <img style="margin-top: -10px;width:100%; height: 100%;border-top-left-radius: 5px; border-top-right-radius: 5px;" src="images/about/people1.jpg" alt="">
+                </div>
+                <div >
+                    <h3 style="margin-top: 10px;color: #333333;font-size: 1.75rem;font-family: inherit;">Bob</h3>
+                    <p style="color: #999999;font-size: 1.25rem;font-family: inherit;"><small >万宸老板</small></p>
+                </div>
+            </div>
+            <div style="float:left; width: 255px;height: 440px; margin: 10px; background-color: #EFEFEF; border-radius: 5px;border:1px solid #CCCCCC">
+                <div style="width: 100%; height: 320px">
+                    <img style="margin-top: -10px;width:100%; height: 100%;border-top-left-radius: 5px; border-top-right-radius: 5px;" src="images/about/people2.jpg" alt=""></div>
+                <div >
+                    <h3 style="margin-top: 10px;color: #333333;font-size: 1.75rem;font-family: inherit;">Galina</h3>
+                    <p style="color: #999999;font-size: 1.25rem;font-family: inherit;"><small >万宸老板娘</small></p>
+                </div>
+            </div>
+            <div style="float:left; width: 255px;height: 440px; margin: 10px; background-color: #EFEFEF; border-radius: 5px;border:1px solid #CCCCCC">
+                <div style="width: 100%; height: 320px">
+                    <img style="margin-top: -10px;width:100%; height: 100%;border-top-left-radius: 5px; border-top-right-radius: 5px;" src="images/about/people3.jpg" alt=""></div>
+                <div >
+                    <h3 style="margin-top: 10px;color: #333333;font-size: 1.75rem;font-family: inherit;">tony</h3>
+                    <p style="color: #999999;font-size: 1.25rem;font-family: inherit;"><small >JPress产品经理</small></p>
+                </div>
+            </div>
+            <div style="float:left; width: 255px;height: 440px; margin: 10px; background-color: #EFEFEF; border-radius: 5px;border:1px solid #CCCCCC">
+                <div style="width: 100%; height: 320px">
+                    <img style="margin-top: -10px;width:100%; height: 100%;border-top-left-radius: 5px; border-top-right-radius: 5px;" src="images/about/people4.jpg" alt=""></div>
+                <div >
+                    <h3 style="margin-top: 10px;color: #333333;font-size: 1.75rem;font-family: inherit;">Jeey</h3>
+                    <p style="color: #999999;font-size: 1.25rem;font-family: inherit;"><small >JPress运营总监</small></p>
+                </div>
+            </div>
+            <div style="float:left; width: 255px;height: 440px; margin: 10px; background-color: #EFEFEF; border-radius: 5px;border:1px solid #CCCCCC">
+                <div style="width: 100%; height: 320px">
+                    <img style="margin-top: -10px;width:100%; height: 100%;border-top-left-radius: 5px; border-top-right-radius: 5px;" src="images/about/people5.jpg" alt=""></div>
+                <div >
+                    <h3 style="margin-top: 10px;color: #333333;font-size: 1.75rem;font-family: inherit;">Jeey</h3>
+                    <p style="color: #999999;font-size: 1.25rem;font-family: inherit;"><small >JPress运营总监</small></p>
+                </div>
+            </div>
+            <div style="float:left; width: 255px;height: 440px; margin: 10px; background-color: #EFEFEF; border-radius: 5px;border:1px solid #CCCCCC">
+                <div style="width: 100%; height: 320px">
+                    <img style="margin-top: -10px;width:100%; height: 100%;border-top-left-radius: 5px; border-top-right-radius: 5px;" src="images/about/people6.jpg" alt=""></div>
+                <div>
+                    <h3 style="margin-top: 10px;color: #333333;font-size: 1.75rem;font-family: inherit;">Jeey</h3>
+                    <p style="color: #999999;font-size: 1.25rem;font-family: inherit;"><small >JPress运营总监</small></p>
+                </div>
+            </div>
+        </div>
+<div style="clear:both; height:0px;">
+</div>
 
 ## 发展历程
