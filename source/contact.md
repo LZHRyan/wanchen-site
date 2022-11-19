@@ -10,7 +10,7 @@ date: 2022-11-13 16:23:50
     </iframe>
 </div>
 <div style="display:block;text-align: center;max-width: 1200px;margin:100px auto;">
-<div style="float:left; width: 340px;height: 340px; margin: 10px;background-color: #EEEEEE;">
+<div style="float:left; width: 340px;height: 340px; margin: 10px;background-color: #EEEFEFEF;border:1px solid #FF8C00;">
     <img style="margin:50px auto; width:100px;height:100px;" src="images/contact/地点.svg">
     <h5 style="font-weight:bold;margin:-40px 0px 0px 0px;padding:0px;">公司地址</h5>
     <p style="margin:10px 20px 20px 20px">
@@ -20,7 +20,7 @@ date: 2022-11-13 16:23:50
         卓越梅林中心广场2栋1301B
     </p>
 </div>
-<div style="float:left; width: 340px;height: 340px; margin: 10px;background-color: #EEEEEE;">
+<div style="float:left; width: 340px;height: 340px; margin: 10px;background-color: #EEEFEFEF;border:1px solid #FF8C00;">
 <img style="margin:50px auto; width:100px;height:100px;" src="images/contact/电话.svg">
     <h5 style="font-weight:bold;margin:-40px 0px 0px 0px;padding:0px;">联系电话</h5>
     <p style="margin:10px 20px 0px 20px">
@@ -30,7 +30,7 @@ date: 2022-11-13 16:23:50
         固定电话：+075589892314
     </p>
 </div>
-<div style="float:left; width: 340px;height: 340px; margin: 10px;background-color: #EEEEEE;">
+<div style="float:left; width: 340px;height: 340px; margin: 10px;background-color: #EEEFEFEF;border:1px solid #FF8C00;">
     <img style="margin:50px auto; width:100px;height:100px;" src="images/contact/Email.svg">
     <h5 style="font-weight:bold;margin:-40px 0px 0px 0px;padding:0px;">电子邮箱</h5>
     <p style="margin:10px 20px 0px 20px">

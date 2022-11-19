@@ -27,11 +27,11 @@ style:
   # Your blog website logo image
   # You can use local image, image external link or don’t fill
   # 用于设置博客站点头部 LOGO
-  logo: /images/logo.svg
+  logo: /images/logo.png
 
   # Favicon (You can use local image or image external link)
   # 用于设置博客站点 favicon 图标
-  favicon: /images/logo.svg
+  favicon: /images/logo.png
 
   # Avatar (You can use local image or image external link)
   #用于设置博客站点作者头像，将显示在文章内容页
